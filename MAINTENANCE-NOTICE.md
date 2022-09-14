@@ -1,0 +1,1 @@
+This mod accepts bug fixes and compatibility fixes from the community.
