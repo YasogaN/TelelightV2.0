@@ -15,7 +15,7 @@ LicenseFile=C:\Users\Blocky\Documents\GitHub\TelelightV2.0\License.md
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputBaseFilename=TelegramV2.0_Windows_x86-64
+OutputBaseFilename=TelegramV2.0_Windows_x86-64_Setup
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -27,15 +27,15 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\dist\TelegramV2.0\TelegramV2.0-win_x64_Portable.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\dist\TelegramV2.0\TelegramV2.0-win_x64.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\neutralino.config.json"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\dist\TelegramV2.0\WebView2Loader.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{autoprograms}\TelelightV2.0"; Filename: "{app}\TelegramV2.0-win_x64_Portable.exe"
-Name: "{autodesktop}\TelelightV2.0"; Filename: "{app}\TelegramV2.0-win_x64_Portable.exe"; Tasks: desktopicon
+Name: "{autoprograms}\TelelightV2.0"; Filename: "{app}\TelegramV2.0-win_x64.exe"
+Name: "{autodesktop}\TelelightV2.0"; Filename: "{app}\TelegramV2.0-win_x64.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\TelegramV2.0-win_x64_Portable.exe"; Description: "{cm:LaunchProgram,TelelightV2.0}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\TelegramV2.0-win_x64.exe"; Description: "{cm:LaunchProgram,TelelightV2.0}"; Flags: nowait postinstall skipifsilent
 
