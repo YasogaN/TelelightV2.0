@@ -6,7 +6,7 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{9F7AA792-448C-4349-8138-429E9FC0B795}
 AppName=TelelightV2.0
-AppVersion=1.0
+AppVersion=1.1
 ;AppVerName=TelelightV2.0 1.0
 AppPublisher=Blockydablocks (Psycho649)
 DefaultDirName={autopf}\TelelightV2.0
@@ -15,7 +15,7 @@ LicenseFile=C:\Users\Blocky\Documents\GitHub\TelelightV2.0\License.md
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputBaseFilename=mysetup
+OutputBaseFilename=TelegramV2.0_Windows_x86-64
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -28,7 +28,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\dist\TelegramV2.0\TelegramV2.0-win_x64_Portable.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\neutralino.config.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\dist\TelegramV2.0\WebView2Loader.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
