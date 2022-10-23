@@ -6,7 +6,7 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{9F7AA792-448C-4349-8138-429E9FC0B795}
 AppName=TelelightV2.0
-AppVersion=1.1
+AppVersion=1.2
 ;AppVerName=TelelightV2.0 1.0
 AppPublisher=Blockydablocks (Psycho649)
 DefaultDirName={autopf}\TelelightV2.0
@@ -30,6 +30,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\dist\TelegramV2.0\TelegramV2.0-win_x64.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\neutralino.config.json"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\dist\TelegramV2.0\WebView2Loader.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Blocky\Documents\GitHub\TelelightV2.0\dist\TelegramV2.0\resources.neu"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
